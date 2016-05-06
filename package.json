@@ -1,0 +1,23 @@
+{
+  "name": "automatic-index",
+  "version": "0.0.0",
+  "description": "Automatic indexer for node modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test-*.js",
+    "develop": "nodemon --watch index.js --exec \"npm run test\""
+  },
+  "keywords": [
+    "automatic",
+    "indexer"
+  ],
+  "author": "Edward Lombe <edward.lombe@mycosystems.com.au> (https://github.com/Edward-Lombe)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "3.5.0",
+    "dedent": "0.6.0",
+    "mocha": "2.4.5",
+    "object.entries": "1.0.3",
+    "require-all": "2.0.0"
+  }
+}
